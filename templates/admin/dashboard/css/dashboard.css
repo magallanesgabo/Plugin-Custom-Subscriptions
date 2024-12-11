@@ -1,0 +1,253 @@
+.suscription-dashboard-body {
+        background-color: #eeeeee;
+        font-family: "Poppins";
+        font-size: 1rem;
+        color: #506678;
+        padding: 15px;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .canvas {
+        position: relative;
+        width: 100%;
+    }
+
+    .note {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .list-name a {
+        text-decoration: none;
+        color: #506678;
+        border-bottom: 1px solid rgba(80, 102, 120, 0.25);
+        transition: all 0.35s;
+    }
+
+    .list-name a:hover {
+        color: #677f93;
+        border-bottom: 1px solid rgba(149, 76, 233, 0.5);
+    }
+
+    .sus-info-card {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 15px 13px 10px 4px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 4%);
+    }
+
+    .card-title {
+        margin: 0px 0px 12px 0px;
+        font-size: 1em;
+        font-weight: 600;
+        color: #292929;
+    }
+
+    .sus-info-card p {
+        padding: 2px 20px 0px;
+    }
+
+    .chart-container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 4%);
+    }
+
+    .chart-legend {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .chart-legend-item {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .chart-legend-item span {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 8px;
+        border-radius: 2px;
+    }
+
+    .chart-legend-item p {
+        margin: 0;
+        font-weight: 500;
+        font-size: small;
+        padding: 0px;
+    }
+
+    .doughnut-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doughnut-info p {
+        font-size: 12.5px;
+        color: #555555e8;
+    }
+
+    .legend-details {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-end;
+        margin: 4px 0px 0px;
+    }
+
+    .legend-numbers {
+        font-size: 1.06em !important;
+        padding: 0px 5px 0px 20px !important;
+    }
+
+    .legend-percents {
+        font-size: 0.85em !important;
+        padding: 0px;
+    }
+
+    .sub-cards-container {
+        display: flex;
+        padding: 0px 0px 0px 26px;
+        gap: 10px;
+        margin: 10px 0px 10px;
+        justify-content: space-around;
+    }
+
+    .sub-cards-info {
+        border-right: 1px solid #e5e5e5;
+        width: 20%;
+        height: 80px;
+        padding: 12px;
+    }
+
+    .sub-cards-info h4 {
+        margin: 0;
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #292929;
+    }
+
+    .sub-cards-info h3 {
+        margin-top: 31px;
+        font-size: 2.6em;
+        font-weight: 600;
+        color: #4b4b4b;
+    }
+
+    .suscription-dashboard {
+        width: 96%;
+        border: 1px solid #e5e5e5;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        /* Alineación a la izquierda */
+        border-left: none;
+        border-right: none;
+    }
+
+    th {
+        background-color: #f3f3f3;
+        font-size: 14px;
+        font-weight: 500;
+        color: #626c82;
+    }
+
+    td {
+        font-size: 0.85em;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    thead th {
+        border-top: none;
+        height: 18px;
+    }
+
+    td.nombre a {
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+        border: unset;
+        transition: 100ms;
+    }
+
+    td.nombre a:link,
+    td.nombre a:visited,
+    td.nombre a:hover,
+    td.nombre a:active {
+        text-decoration: none;
+        color: inherit;
+        border: unset;
+    }
+
+    td.nombre a:hover {
+        color: #2f2ce4;
+        border: unset;
+    }
+
+    td.nombre a:active {
+        color: #3734f5;
+        border: unset;
+    }
+
+    .welcome-dash-hr {
+        margin: 0px 0px 15px;
+        border-bottom: unset;
+        border-top: 1px solid #dfdfdf;
+    }
+
+    .planes {
+        width: fit-content;
+        padding: 2px 11px;
+        border-radius: 8px;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    .vip {
+        background: #fa82f3ad;
+    }
+
+    .mercados-lite {
+        background: #9b8bfc96;
+    }
+
+    .mercados-global {
+        background: #faca54a3;
+    }
+
+    .vip-pro {
+        background: #a8d0fabd;
+    }
+
+    .id {
+        font-weight: 500;
+    }

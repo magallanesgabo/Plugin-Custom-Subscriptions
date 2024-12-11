@@ -1,0 +1,200 @@
+<html lang="en">
+  <head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo img {
+            height: 55px;
+            margin: 10px 15px;
+        }
+
+        .invoice-info-grid {
+            padding: 0px 20px 5px;
+            text-align: right;
+        }
+
+        .invoice-info-grid table {
+            width: auto;
+            margin-left: auto;
+        }
+
+        .invoice-info-grid td {
+            padding: 5px 25px;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .order-bill {
+            padding: 0px;
+        }
+
+        .order-bill table {
+            width: 100%;
+        }
+
+        .order-bill td {
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .order-bill .order-by,
+        .order-bill .bill-to {
+            width: 48%;
+        }
+
+        .footer {
+            font-size: 10px;
+            margin-top: 170px;
+        }
+
+        .footer table {
+            width: 100%;
+        }
+
+        .footer td {
+            vertical-align: top;
+        }
+
+        .left-footer p,
+        .right-footer p {
+            margin: 4px 0;
+        }
+
+        .contact-info {
+            font-size: 10px;
+            text-align: right;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .bordered-table th,
+        .bordered-table td {
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .description {
+            width: 70%;
+        }
+
+        .amount {
+            width: 25%;
+            text-align: right;
+            border-left: 1px solid #dddddd;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        td.description.total {
+            text-align: right;
+        }
+
+        .table-description {
+            margin: 4px 0px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <img src="header-bar.png" alt="header bar" style="width: 93%;">
+        <div class="logo">
+            <img src="logo-produ-2.png" alt="PRODU Logo">
+        </div> 
+    </div>
+    <div class="invoice-info-grid">
+        <div class="grid-container">
+            <div class="grid-item"><strong>Invoice #</strong></div>
+            <div class="grid-item">121067T</div>
+            <div class="grid-item"><strong>Invoice Date</strong></div>
+            <div class="grid-item">02/04/2024</div>
+        </div>
+    </div>
+    <div class="order-bill">
+        <div class="order-by">
+            <p><strong>Order By</strong><br>
+            Jorge Gonzalo<br>
+            ODA - Observatorio de la Diversidad en los Medios Audiovisuales</p>
+        </div>
+        <div class="bill-to">
+            <p><strong>Bill to</strong><br>
+            ODA - Observatorio de la Diversidad en los Medios Audiovisuales</p>
+        </div>
+    </div>
+
+    <div style="padding: 0px 13px;">
+        <table>
+            <tr>
+                <th class="description">Description</th>
+                <th class="amount" style="text-align: left;">Amount</th>
+            </tr>
+            <tr>
+                <td class="description">
+                    <p class="table-description"><strong>PRODU SMALL</strong></p><br>
+                    <p class="table-description"><strong>Send To:</strong> danubia@voxxstudios.com</p><br>
+                    <p class="table-description"><strong>Ciclo de suscripción:</strong> 19/11/2023-17/05/2024</p><br>
+                    <p class="table-description"><strong>Autorizado por:</strong><br> PRODU</p><br>
+                    <p class="table-description"><strong>APROBADO</strong></p>
+                </td>
+                <td class="amount"><strong style="margin-right: 50px;">US$</strong> 1999</td>
+            </tr>
+            <tr>
+                <td class="description"><strong>Descuento</strong></td>
+                <td class="amount">1999.00($)</td>
+            </tr>
+            <tr>
+                <td class="description total">Total Amount:</td>
+                <td class="amount total"><strong style="margin-right: 50px;">US$</strong> 0.00</td>
+            </tr>
+        </table>
+    </div>
+    <div class="produ-info">
+        <div class="container">
+            <div class="left-section">
+                <p>Checks and Money Orders: payable to PRODUCCION & DISTRIBUCION, CORP.<br>
+                By Credit Card: Please send Credit Card Holder's Name, number and Exp. Date<br>
+                Bank Transfer: (You must pay transfer Cost)<br>
+                PRODUCCION & DISTRIBUCION, CORP.<br>
+                Account: 05052807805<br>
+                ABA: 066011392<br>
+                SWIFT: OCBCUS3M<br>
+                Bank: Ocean Bank<br>
+                1000 Brickell Avenue<br>
+                Miami, Fl 33131, U.S.A.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="left-footer">
+                <p>PRODU.COM</p>
+                <p style="font-weight: 500;">CONTENIDO PUBLICIDAD TECNOLOGÍA</p>
+            </div>
+            <div class="right-footer">
+                <div class="contact-info">
+                    <p><span>📞</span> +1-305-256-6774</p>
+                    <div class="right-section">
+                        <p>12480 NW 25th Street,<br>
+                        Suite 115,Miami,FL<br>
+                        33182</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
